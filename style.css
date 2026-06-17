@@ -1,0 +1,212 @@
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('./HelveticaNeueMedium.otf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.header{
+    background-color:#1B2433;
+    color: white;
+    padding: 20px;
+    height: 30%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+}
+
+h1{
+    font-size:2.9rem;
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+}
+
+p{
+    font-size: 1.43rem;
+    margin-top: 0.3rem;
+    margin-bottom: 1rem;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.about-me__section{
+    width: 80%;
+    font-size: 1rem;
+    padding: 30px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    gap: 10px;
+}
+
+.about-me__section h2{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.about-me__section p{
+    padding: 10px;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.education__section{
+    width:80%;
+    font-size: 1rem;
+    padding:30px;
+    background-color: #DAF0FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.education__section h2{
+    margin-top: 1rem 0.5rem;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.education__section p{
+    margin-top: 0.3rem;
+    padding: 10px;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: center;
+    width:80%;
+    background-color: #FFFFFF;
+    margin-bottom: 10px;
+    gap: 0px;
+}
+
+.skills__section{
+    width:80%;
+    font-size: 1rem;
+    padding:30px;
+    background-color: #FEF1BF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.skills__section h2{
+    margin-top: 1rem 0.5rem;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.skills__section p{
+    margin-top: 0.3rem;
+    padding: 10px;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: center;
+    width:80%;
+    background-color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.projects__section{
+    width:80%;
+    font-size: 1rem;
+    padding:30px;
+    background-color: #EBE6FE;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    gap: 0px;
+}
+
+.projects__section h2{
+    margin-top: 1rem 0.5rem;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.projects__section p{
+    margin-top: 0.3rem;
+    padding: 10px;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: center;
+    width:80%;
+    background-color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.contact__section{
+    width:80%;
+    font-size: 1rem;
+    padding:30px;
+    background-color: #D7FCE3;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    gap: 0px;
+}
+
+.contact__section h2{
+    margin-top: 1rem 0.5rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.contact__section p{
+    margin-top: 0.3rem;
+    padding: 10px;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: center;
+    width:80%;
+    background-color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.footer{
+    margin-top: 20px;
+    background:#0E131B;
+    color:white;
+    padding:20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p{
+    font-size: 0.9rem;
+    text-align: center;
+}
