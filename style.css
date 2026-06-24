@@ -1,135 +1,42 @@
 @font-face {
-  font-family: "Helvetica Neue";
-  src: url(./HelveticaNeueMedium.otf);
+    font-family: 'Helvetica Neue';
+    src: url('./HelveticaNeueMedium.otf');
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Helvetica Neue", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue', sans-serif;
 }
 
-html,
-body {
-  height: 100%;
-  width: 100%;
+html, body {
+    height: 100%;
+    width: 100%;
 }
 
-#main {
-  height: 100%;
-  width: 100%;
+#parent{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space- between;
 }
 
-#nav {
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px 50px;
-  background-color: gray;
-  justify-content: space-between;
+#box1{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
 }
-
-#nav h3 {
-  display: flex;
-  margin: 0.5rem;
+#box2{
+    height: 200px;
+    width: 200px;
+    background-color: gainsboro;
 }
-
-#nav a {
-  margin: 0.5rem;
-  text-decoration: none;
-  color: white;
-  font-size: 1rem;
-  gap: 2rem;
-}
-
-#logo h2 {
-  margin: 0.5rem;
-  color: white;
-  font-size: 2rem;
-}
-
-.left,
-.right {
-  display: flex;
-  gap: 2rem;
-}
-
-#hero-section {
-  margin: 1rem;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 1.5rem;
-}
-
-#hero-section h1 {
-  z-index: 1;
-  font-size: 12rem;
-  font-weight: 600;
-  margin-top: 1rem;
-  padding-top: .5rem;
-  color: black;
-}
-
-#bottom-left {
-  margin: 3rem;
-  padding: 3rem;
-  align-items: center;
-}
-
-#bottom-left,
-h3,
-h4 {
-  padding: 0.9rem;
-  font-size: 1.1rem;
-  color: black;
-}
-
-#bottom-left,
-h3 h4,
-p {
-  padding: 0.3rem;
-}
-
-#bottom {
-  padding: 0.5rem;
-  display: flex;
-  justify-content: space-between;
-  background-color: gray;
-}
-
-#bottom h1 {
-  padding: 0.2rem;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-}
-
-#bottom a {
-  text-decoration: none;
-  color: white;
-  padding-top: 0.9rem;
-  padding: 1rem;
-  font-size: 1rem;
-}
-
-#main>img{
-  position: absolute;
-  height: 250px;
-}
-
-#first{
-  top: 39%;
-  left: 51%;
-}
-
-#sec{
-  top: 55%;
-  left: 59%;
-}
-
-#thir{
-  top: 35%;
-  left: 68%;
+#box3{
+    height: 200px;
+    width: 200px;
+    background-color: lavender;
 }
