@@ -1,42 +1,77 @@
 @font-face {
-    font-family: 'Helvetica Neue';
-    src: url('./HelveticaNeueMedium.otf');
+  font-family: "Helvetica Neue";
+  src: url(./SF-Pro-Text-Light.otf);
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Helvetica Neue', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Helvetica Neue", sans-serif;
 }
 
-html, body {
-    height: 100%;
-    width: 100%;
+html,
+body {
+  height: 100%;
+  width: 100%;
 }
 
-#parent{
-    height: 100%;
-    width: 100%;
-    background-color: black;
+#main {
+  width: 100%;
+  background-color: #161617;
+}
+
+#nav {
+  margin: 0rem 1.5rem;
+  padding: 0.5rem 0rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+#nav a {
+  color: white;
+  font-size: 0.7rem;
+  text-decoration: none;
+  margin: 0.5rem;
+  padding: 0.3rem;
+  font-weight: 100;
+}
+
+#nav>#i{
+    font-size: 1rem;
+}
+
+#shop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1D1D1F;
+}
+
+#shop h3 {
+  font-size: 0.9rem;
+  font-weight: 100;
+  padding: 1rem;
+  color: white;
+}
+
+#shop h3 > span {
+  color: #5698db;
+}
+
+#ipad{
+    margin: 2rem;
+    padding: 1rem;
+}
+
+#ipad>h1{
+    margin: 2rem;
+    padding: 2rem;
+}
+
+#img{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    justify-content: space- between;
-}
-
-#box1{
-    height: 200px;
-    width: 200px;
-    background-color: aqua;
-}
-#box2{
-    height: 200px;
-    width: 200px;
-    background-color: gainsboro;
-}
-#box3{
-    height: 200px;
-    width: 200px;
-    background-color: lavender;
+    justify-content: space-around;
 }
