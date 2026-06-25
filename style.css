@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "Helvetica Neue";
+  font-family: "SF";
   src: url(./SF-Pro-Text-Light.otf);
 }
 
@@ -7,196 +7,72 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Helvetica Neue", sans-serif;
+  font-family: SF;
 }
 
 html,
 body {
   height: 100%;
   width: 100%;
+  background-color: black;
 }
 
 #main {
-  width: 100%;
-  height: 100%;
-}
-
-#nav {
-  padding: 0.5rem 0rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 30px;
-  background-color: #161617;
-  cursor: pointer;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
-#nav a {
-  color: white;
-  font-size: 0.7rem;
-  text-decoration: none;
-  margin: 0.5rem;
-  padding: 0.3rem;
-  font-weight: 100;
-}
-
-#nav>#i{
-    font-size: 1rem;
-}
-
-#shop {
+.box {
   display: flex;
   justify-content: center;
-  align-items: center;
-  background-color: #1D1D1F;
-}
-
-#shop h3 {
-  font-size: 0.9rem;
-  font-weight: 100;
-  padding: 1rem;
-  color: white;
-}
-
-#shop h3 > span {
-  color: #5698db;
-}
-
-#ipad{
-    margin: 2rem;
-    padding: 1rem;
-}
-
-#ipad >h1{
-    margin: 2rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    font-size: 3rem;
-    font-weight: 800;
-}
-
-#img{
-    display: flex;
-    justify-content: space-around;
-}
-
-
-#air{
-  width: 100%;
-  height: 75%;
-  background-image: url(https://www.apple.com/v/home/images/airpods-pro-3/a/hero_airpods_pro_3_enhanced__eg3tn83tm1si_mediumtall_2x.jpg);
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  justify-content: flex-end;
   align-items: center;
   flex-direction: column;
-  color: white;
-  padding-bottom: 4rem;
+  padding: 1rem;
   cursor: pointer;
+  height: 350px;
+  width: 250px;
+  background-color: #f7bfbf;
+  margin: 1.2rem;
+  border-radius: 10px;
 }
 
-#hero h1{
-  margin: .2rem;
-  font-size: 4rem;
+.box img {
+  object-fit: cover;
+  object-position: center;
+  border-radius: 100%;
+  margin: 0.3rem;
+  height: 150px;
+}
+
+.box h1 {
+  margin: 0.3rem;
+  font-size: 2rem;
   font-weight: 900;
 }
 
-#para{
-
-   
-   font-size: 1.7em;
-   font-weight: 600;
-   word-wrap: break-word;
+.box p {
+  margin: 0.2rem;
+  padding: 0.2rem;
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: 800;
 }
 
-#button{
-  display: flex;
-  padding-top: 15px;
-  gap: 30px;
-}
-
-#button>button{
-  padding: 15px 30px;
+.box button {
+  margin: 0.6rem;
+  padding: 10px 30px;
+  border: none;
   border-radius: 50px;
-  font-size: 15px;
-  font-weight: bold
-}
-
-#learn{
-  border: 1px solid black;
-  cursor: pointer;
-}
-
-#buy{
-  background-color: transparent;
-  border: 2px solid white;
   color: white;
+  background-color: #22b6ff;
 }
 
-#buy:hover{
-  background-color: white;
+.box button:hover {
+  border: 1px solid black;
   color: black;
-  cursor: pointer;
-}
-
-#sec-hero{
-  margin-top: .4rem;
-  height: 75vh;
-  background-image: url(https://www.apple.com/v/home/images/macbook-air-m5/a/hero_macbook_air_m5__eb1idggd120y_large_2x.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  flex-direction: column;
-  cursor: pointer;
-}
-
-#mac{
-   margin-top: 2rem;
-   padding: 1rem;
-}
-
-#mac-hero{
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
-#mac-hero p{
-  font-size: 1.3rem;
-  font-weight: 500;
-}
-
-#macbutton{
-  margin: 1rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 30px;
-}
-
-#macbutton button{
-  padding: 15px 30px;
-  border-radius: 50px;
-  font-size: 15px;
-}
-
-#mac-learn{
-  background-color: #0076DF;
-  color: white;
-  border: 1px solid black;
-  cursor: pointer;
-}
-
-#mac-buy{
-  border: 2px solid #829CCE;
-  color: #0076DF;
-}
-
-#mac-buy:hover{
-  color: white;
-  background-color: #0076DF;
+  background-color: white;
   cursor: pointer;
 }
