@@ -18,16 +18,17 @@ body {
 
 #main {
   width: 100%;
-  background-color: #161617;
+  height: 100%;
 }
 
 #nav {
-  margin: 0rem 1.5rem;
   padding: 0.5rem 0rem;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 30px;
+  background-color: #161617;
+  cursor: pointer;
 }
 
 #nav a {
@@ -66,12 +67,136 @@ body {
     padding: 1rem;
 }
 
-#ipad>h1{
+#ipad >h1{
     margin: 2rem;
-    padding: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 3rem;
+    font-weight: 800;
 }
 
 #img{
     display: flex;
     justify-content: space-around;
+}
+
+
+#air{
+  width: 100%;
+  height: 75%;
+  background-image: url(https://www.apple.com/v/home/images/airpods-pro-3/a/hero_airpods_pro_3_enhanced__eg3tn83tm1si_mediumtall_2x.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  padding-bottom: 4rem;
+  cursor: pointer;
+}
+
+#hero h1{
+  margin: .2rem;
+  font-size: 4rem;
+  font-weight: 900;
+}
+
+#para{
+
+   
+   font-size: 1.7em;
+   font-weight: 600;
+   word-wrap: break-word;
+}
+
+#button{
+  display: flex;
+  padding-top: 15px;
+  gap: 30px;
+}
+
+#button>button{
+  padding: 15px 30px;
+  border-radius: 50px;
+  font-size: 15px;
+  font-weight: bold
+}
+
+#learn{
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+#buy{
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+}
+
+#buy:hover{
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+#sec-hero{
+  margin-top: .4rem;
+  height: 75vh;
+  background-image: url(https://www.apple.com/v/home/images/macbook-air-m5/a/hero_macbook_air_m5__eb1idggd120y_large_2x.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+#mac{
+   margin-top: 2rem;
+   padding: 1rem;
+}
+
+#mac-hero{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#mac-hero p{
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+#macbutton{
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+#macbutton button{
+  padding: 15px 30px;
+  border-radius: 50px;
+  font-size: 15px;
+}
+
+#mac-learn{
+  background-color: #0076DF;
+  color: white;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+#mac-buy{
+  border: 2px solid #829CCE;
+  color: #0076DF;
+}
+
+#mac-buy:hover{
+  color: white;
+  background-color: #0076DF;
+  cursor: pointer;
 }
