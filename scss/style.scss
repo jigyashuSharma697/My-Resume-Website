@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url(./HelveticaNeueMedium.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.card{
+    height: 35px;
+    width: 300px;
+    background-color: crimson;
+}
