@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "sp";
+  src: url(../assest/HelveticaNeueMedium.otf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "sp";
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+h1::-webkit-scrollbar {
+  display: none;
+}
+
+h1 {
+  color: transparent;
+  background-image: url(https://i.pinimg.com/originals/aa/95/44/aa9544b1df285edf354d14c311f9e9a1.gif);
+  padding-top: 5rem;
+  font-size: 200px;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-stroke: 1px white;
+}/*# sourceMappingURL=style.css.map */
